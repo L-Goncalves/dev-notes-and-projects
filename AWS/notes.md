@@ -59,3 +59,5 @@ All of this data can be seen at https://infrastructure.aws
 * They're connected with high bandwidth ultra-low lantency networking
 
 ## AWS Points of Presence (Edge Locations)
+* They are data centers located close to end users to speed up delivery of content and reduce latency.
+* AWS uses Edge Locations to cache and deliver content closer to users.
