@@ -63,9 +63,47 @@ All of this data can be seen at https://infrastructure.aws
 * They are data centers located close to end users to speed up delivery of content and reduce latency.
 * AWS uses Edge Locations to cache and deliver content closer to users.
 
+# IAM:
+IAM is a global service and no region needs to be selected
+
 ## IAM: Users & Groups
 
 * Root account is created by default and should not be used or shared (it is bad practice)
 * Users are people within the organization and can be grouped to have same rules.
 * Groups: can only contain users, not other groups (subgroups not allowed)
 * Users don't have to belong to a group, and can belong to multiple groups
+
+## IAM: Permissions
+
+* Users or Groups can be assigned through JSON documents called Policies.
+  Example:
+  ```json
+  {
+   "Version": "2012-10-17", 
+   "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "ec2:Describe"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "elatiscloadbalancing:Describe*",
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+  	"cloudwatch:ListMetrics",
+          "cloudwatch:GetMetricStatistics",
+          "cloudwatch:Describe",
+       ],
+      "Resource": "*"
+    },
+   ]
+  }
+  ```
+* These policies define the permissions of the users
+* In AWS you apply the least privilege principle: don't give users more permissions than they actually need!
+
+### Inline Policy:
+* Attached to only a user
