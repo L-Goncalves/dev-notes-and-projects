@@ -102,6 +102,23 @@ IAM is a global service and no region needs to be selected
    ]
   }
   ```
+
+### IAM Policies Structure:
+
+* Consists of
+  * Version: Policy language version, always include "2012-10-17".
+  * Id (optional): Identifier of Policy
+  * Statement (required): Identifier of Policy
+
+
+* Statements Consists of
+  * Sid (optional): an identifier for the statement.
+  * Effect (Allow, Deny): wether the statement allows or denies
+  * Principal: account/user/role to which this policy is applied to
+  * Action: list of actions this policy allows or denies
+  * Resource: list of resources to which the actions applied to
+  * Condition(optional): conditions for when this policy is in effect 
+
 * These policies define the permissions of the users
 * In AWS you apply the least privilege principle: don't give users more permissions than they actually need!
 
