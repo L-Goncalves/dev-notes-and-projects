@@ -59,5 +59,13 @@ All of this data can be seen at https://infrastructure.aws
 * They're connected with high bandwidth ultra-low lantency networking
 
 ## AWS Points of Presence (Edge Locations)
+
 * They are data centers located close to end users to speed up delivery of content and reduce latency.
 * AWS uses Edge Locations to cache and deliver content closer to users.
+
+## IAM: Users & Groups
+
+* Root account is created by default and should not be used or shared (it is bad practice)
+* Users are people within the organization and can be grouped to have same rules.
+* Groups: can only contain users, not other groups (subgroups not allowed)
+* Users don't have to belong to a group, and can belong to multiple groups
