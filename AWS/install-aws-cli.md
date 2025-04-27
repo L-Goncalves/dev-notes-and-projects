@@ -3,10 +3,10 @@
 Docs: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 MSI:
-msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn
+```msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi /qn```
 
 
-- To confirm the installation, open the Start menu, search for cmd to open a command prompt window, and at the command prompt use the aws --version command.
+- To confirm the installation, open the Start menu, search for cmd to open a command prompt window, and at the command prompt use the ```aws --version``` command.
 
 
 C:\> aws --version
