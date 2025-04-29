@@ -53,7 +53,6 @@ All of this data can be seen at https://infrastructure.aws
 
 ## AWS Availability Zones
 
-
 * Each region has many availablility zones (usually 3, minimum is 3 and max is 6).
 * Each availability zone (AZ) is one or more discrete data centers with redudant power networking, and connectivity
 * They're separate from each other, so that they're isolated from disasters
