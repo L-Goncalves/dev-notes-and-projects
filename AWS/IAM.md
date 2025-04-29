@@ -124,3 +124,14 @@ Create a custom trust policy to enable others to perform actions in this account
 
   * The Access Advisor shows the service granted permisssions to a user and when those services were last accessed.
   * You can use this information to revise your policies
+
+### IAM Best Pratices:
+
+* Never use Root Account (use account instead)
+* 1 AWS user = 1 Physical User
+* Assign users to groups and permissions to groups
+* Create strong password Policy
+* Use and enforce the use of MFA
+* Create and use roles to giving permissions to AWS Services
+* Don't share access keys
+* Use access keys for CLIs and SDKs
