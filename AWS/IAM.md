@@ -79,3 +79,37 @@ IAM is a global service and no region needs to be selected
   * Prevent password re-use
 * Users have access to your account and can possibly change configurations or delete resources in your AWS account
 * You want to protect your Root Accounts and IAM users
+
+
+### IAM Roles for Services
+
+* Some AWS service will need to perform actions on your behalf
+* To do so, we will assign permisssions to AWS Sevices with IAM Roles
+
+#### What roles can be created?
+
+* AWS service
+* AWS Account
+* Web Identity
+* SAML 2.0 federation
+* Custom Trust Policy
+
+##### AWS Service:
+
+Allow AWS services like EC2, Lambda, or others to perform actions in this account.
+
+##### AWS Account:
+
+Allow entities in other AWS accounts belonging to you or a 3rd party to perform actions in this account.
+
+##### Web Identity:
+
+Allows users federated by the specified external web identity provider to assume this role to perform actions in this account.
+
+##### SAML 2.0 Federation:
+
+Allow users federated with SAML 2.0 from a corporate directory to perform actions in this account.
+
+##### Custom Trust Policy:
+
+Create a custom trust policy to enable others to perform actions in this account.
