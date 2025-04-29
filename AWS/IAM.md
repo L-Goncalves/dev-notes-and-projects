@@ -113,3 +113,14 @@ Allow users federated with SAML 2.0 from a corporate directory to perform action
 ##### Custom Trust Policy:
 
 Create a custom trust policy to enable others to perform actions in this account.
+
+
+### IAM Security Tools:
+
+* IAM Credentials Report (account-level)
+
+  * A report that lists all your account's users and their status of various credentials
+* IAM Access Advisor (user-level)
+
+  * The Access Advisor shows the service granted permisssions to a user and when those services were last accessed.
+  * You can use this information to revise your policies
