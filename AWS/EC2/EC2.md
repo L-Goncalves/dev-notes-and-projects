@@ -33,9 +33,7 @@
   * Anything you can think of
 * Any command run has the SUDO permissions
 
-
 ### EC2 Instance Types:
-
 
 | Instance    | vCPU | Memory (GiB) | Storage           | Network Performance | EBS Bandwidth (Mbps) |
 | ----------- | ---- | ------------ | ----------------- | ------------------- | -------------------- |
@@ -45,5 +43,33 @@
 | r5.16xlarge | 64   | 512          | EBS-Only          | 20 Gbps             | 13,600               |
 | m5.8xlarge  | 32   | 128          | EBS-Only          | 10 Gbps             | 6,800                |
 
-
 * t2.micro is part of AWS free tier (up to 750 hours per month)
+
+#### Creating a new instance:
+
+From the home click on launch new instances, it will make you go into a new page of EC2, there you can configure what you want.
+
+The current free tier as of this date (09/05/2025) [DD/MM/YYYY] is t2.micro
+
+##### SSH
+
+* We need:
+* Key-pair name
+* Key-pair type
+* Private Key format
+
+To SSH we need a new key pair with RSA and save as:
+
+.ppk is used in lower versions of Windows like Windows 7
+
+.pem is the most common.
+
+##### Storage
+
+* Free tier gets me 30GB of EBS General Purpose
+
+#### Important
+
+After creating an instance on AWS make sure to check the IP address on the internet to check availability.
+
+* If HTTPs is not marked only http requests will be accepted
