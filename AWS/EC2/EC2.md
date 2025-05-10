@@ -73,3 +73,13 @@ To SSH we need a new key pair with RSA and save as:
 After creating an instance on AWS make sure to check the IP address on the internet to check availability.
 
 * If HTTPs is not marked only http requests will be accepted
+
+#### Terminating Instance
+
+It's like deleting forever the instance.
+
+* The Instance store volumes are lost
+* The data on EBS Volumes:
+  * If the EBS volume is **root** and has the `DeleteOnTermination` flag = true (default), it is  **deleted** .
+  * If it’s an attached EBS volume without `DeleteOnTermination`, the volume **remains** and you are charged for it.
+* Security Groups, key pairs AMIs and snapshots remain. They're not deleted
