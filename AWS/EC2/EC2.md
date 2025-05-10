@@ -73,6 +73,7 @@ To SSH we need a new key pair with RSA and save as:
 After creating an instance on AWS make sure to check the IP address on the internet to check availability.
 
 * If HTTPs is not marked only http requests will be accepted
+* The public IPV4 can change if stopped and start again.
 
 #### Terminating Instance
 
