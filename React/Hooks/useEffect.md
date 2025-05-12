@@ -70,6 +70,14 @@ export default Counter ;
 
 ```
 
+#### Common Use Cases:
+
+* Fetching data
+* Setting up event listeners
+* Setting timers
+* Subscribing to external services
+* Cleaning up on unmount
+
 #### Good to know:
 
 * **useEffect does not directly makes it re-render**, but runs once after the re-render, when component updates
