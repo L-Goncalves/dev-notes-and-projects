@@ -26,7 +26,7 @@ If you want to support new log types (`debug`, `fatal`, etc.), you need to **mod
 
 * Good Example (follows Open/Closed using strategy pattern)
 
-```
+```js
 class Logger {
   constructor() {
     this.strategies = {};
