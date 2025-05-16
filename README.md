@@ -1,7 +1,7 @@
 # What is this Repository About?
 
 I’m passionate about preserving as much of my knowledge as possible.  
-Whenever I learn something new or study for certifications, I'll be actively updating this repository.
+Whenever I learn something new or study for certifications or review concepts, I'll be actively updating this repository.
 
 Think of it as **my personal knowledge base** — if it were possible to download my brain into a folder, this would be it. 😅
 
