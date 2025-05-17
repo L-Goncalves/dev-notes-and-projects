@@ -62,3 +62,12 @@ All of this data can be seen at https://infrastructure.aws
 
 * They are data centers located close to end users to speed up delivery of content and reduce latency.
 * AWS uses Edge Locations to cache and deliver content closer to users.
+
+
+---
+
+### Glossary:
+
+* **PaaS**: Platform as a Service — a cloud model where providers deliver hardware and software tools over the internet (e.g., AWS Elastic Beanstalk).
+* **IaaS**: Infrastructure as a Service — cloud services that offer basic computing, networking, and storage resources (e.g., Amazon EC2).
+* **SaaS**: Software as a Service — ready-to-use applications delivered over the internet (e.g., Gmail, Dropbox).
