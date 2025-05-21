@@ -46,3 +46,7 @@ Amazon EKS is a **managed Kubernetes service** that makes it easy to run Kuberne
 * Supports Redis!
 * Great for gaming session storage and real-time analytics
 * Fully managed, with autoscaling, failover support
+
+### AWS S3 (Bucket):
+
+AWS S3 is a service that saves objects such as archives, images,PDFs and more. It's highly scalable safe and low cost.
