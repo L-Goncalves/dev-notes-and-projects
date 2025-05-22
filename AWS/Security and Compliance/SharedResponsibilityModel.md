@@ -4,7 +4,7 @@
 
 Example:
 
-Security of the cloud is **RESPONSABILTY OF AWS**
+Security of the cloud is **RESPONSIBILTY OF AWS**
 
 * AWS is Responsible for the security of the components that make up the AWS Cloud!
 
