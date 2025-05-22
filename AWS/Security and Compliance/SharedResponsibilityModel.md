@@ -1,6 +1,6 @@
-### Shared Responsability Model
+### Shared Responsibility Model
 
-* Security of Cloud Computing infrastructures and data is a shared responsability between the customer and AWS
+* Security of Cloud Computing infrastructures and data is a shared Responsibility between the customer and AWS
 
 Example:
 
@@ -13,7 +13,7 @@ Security of the cloud is **RESPONSABILTY OF AWS**
 
 BUT
 
-Security IN the cloud is **OUR RESPONSABILITY:**
+Security IN the cloud is **OUR Responsibility:**
 
 * We are responsible for varying levels of security functions depending on the Cloud Service we're using. Such as:
   * Protecting customer data and data encryptiong
