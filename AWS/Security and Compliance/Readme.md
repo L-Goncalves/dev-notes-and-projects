@@ -6,7 +6,7 @@ Here you can check the following:
 * [AWS Artifact](./Artifact.md)
 * [IAM](./IAM.md)
 * [AWS Inspector](./Inspector.md)
-* [AWS Shared Responsibility](./SharedResponsibility.md)
+* [AWS Shared Responsibility](./SharedResponsibilityModel.md)
 * [AWS Shield](./Shield.md)
 * [AWS Trusted Advisor](./TrustedAdvisor.md)
 * [Web Application Firewall (WAF)](./WAF.md)
