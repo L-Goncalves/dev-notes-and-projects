@@ -8,7 +8,7 @@ Security of the cloud is **RESPONSIBILTY OF AWS**
 
 * AWS is Responsible for the security of the components that make up the AWS Cloud!
 
-* AWS is responsabilty for physical security of data centers hosting in the AWS Cloud
+* AWS is responsibilty for physical security of data centers hosting in the AWS Cloud
 * Security of hardware, software, networking, and so on that run the cloud computing services
 
 BUT
