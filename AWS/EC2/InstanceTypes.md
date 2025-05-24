@@ -47,3 +47,7 @@ Example: m5.2xlarge
   * Cache in-memory databases (for example Redis)
   * Data warehousing applications
   * Distributed file systems
+
+#### Accelerated Computing:
+
+* Good for functions that require high processing capabilities
