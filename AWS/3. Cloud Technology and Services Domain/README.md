@@ -12,3 +12,11 @@ Here you can find:
 
 * [Deploying (Conceptual)](./Deploying.md)
 * [Infra as code services](./IaC.md)
+
+### Connecting to the Cloud:
+
+You can connect to the Cloud through some options:
+
+* Virtual Private Network (VPN)
+* AWS Direct Connect
+* Public Internet
