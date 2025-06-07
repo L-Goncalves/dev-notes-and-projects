@@ -12,7 +12,7 @@
 
 ### Amazon Aurora
 
-* Fully managed relational datavbase engine
+* Fully managed by RDS
 * One of the database engines supported by Amazon RDS
 
 ### AWS Database Migration Services
@@ -20,7 +20,7 @@
 * AWS Data Migration Service (AWS DMS)
 * AWS Schema Conversion Tool (AWS SCT)
 
-### NoSQL Databases 
+### NoSQL Databases
 
 * Aka non-relational databases
 * Built for lots and lots of data
@@ -38,3 +38,11 @@
 * Offer low latency high throughput and high scalability
 
 Examples: Amazon MemoryDB for Redis, Amazon DAX, Amazon ElastiCache
+
+### Amazon Redshift
+
+* Fully managed - no servers to provision or manage
+* Petabyte-scale data warehouse service
+* Faster and cheaper than other data warehouse providers
+* Data warehouse: stores extremely large amounts of data from wide ranges of sources to analyze
+* Secure, quick to set up and easy to scale.
