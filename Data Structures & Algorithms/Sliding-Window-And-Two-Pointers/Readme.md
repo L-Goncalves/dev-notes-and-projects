@@ -78,3 +78,12 @@ b (index 3) is found:
 Delete index 0 Move Left for next deletition, is still being duplicate?
 
 Delete Index 1 Move left for next deletition, is still being duplicate? If not we add to seen because it was seen the first time.
+
+
+### More on Sliding Window:
+
+
+How to recognize a problem with sliding window?
+A: Most time we can get it by "when the solution to the problem is" a subarray or size of subarray that fills some condition.
+
+
