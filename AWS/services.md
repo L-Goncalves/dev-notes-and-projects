@@ -50,3 +50,28 @@ Amazon EKS is a **managed Kubernetes service** that makes it easy to run Kuberne
 ### AWS S3 (Bucket):
 
 AWS S3 is a service that saves objects such as archives, images,PDFs and more. It's highly scalable safe and low cost.
+
+### AWS SQS:
+ 
+AWS SQS (Amazon Simple Queue Service) is a fully managed message queueing service by Amazon Web Services.
+
+##### Use Case Example:
+Imagine you have a web app where users upload images. You don’t want to process images immediately on the main server because it’s slow. Instead:
+
+The server puts a message like “User123 uploaded image.png” into the SQS queue.
+
+A background worker (another server) reads that message from the queue and processes the image.
+
+After processing, the worker deletes the message from the queue.
+
+##### Why use SQS?
+Decoupling: Separates components so they don't need to talk to each other directly.
+
+Scalability: Lets you handle spikes in traffic without crashing.
+
+Reliability: Messages stay in the queue until processed (or timeout).
+
+Retries: Automatically tries again if processing fails.
+
+
+ 
